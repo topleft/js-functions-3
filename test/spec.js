@@ -28,7 +28,6 @@ describe("js-functions", function() {
 
   it("returns the vowels in a string",function(){
     expect(getVowels('javascripting')).toEqual(["a","i"]);
-    expect(getVowels("More code")).toEqual(["o","e"]);
   })
 
   it( "returns true if there are two of each item in the array, false otherwise",function(){
@@ -43,7 +42,7 @@ describe("js-functions", function() {
 
   it("returns an array of the unique values in an array",function(){
     expect(getUniqueValues(['m', 'n', 'm', 'r', 'r', 's'])).toEqual(["n","s"]);
-    expect(getUniqueValues(['michael', 'ben', 'kerry', 'ben'])).toEqual(["micheal","kerry"]);
+    expect(getUniqueValues(['michael', 'ben', 'kerry', 'ben'])).toEqual(["michael","kerry"]);
   })
 });
 
